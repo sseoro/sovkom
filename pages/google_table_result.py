@@ -15,7 +15,7 @@ class GoogleTableResult(BaseClass):
 
     url_first_result = '//*[@id="rso"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a'    # локатор ссылки первого результата поиска
     url_second_result = '//*[@id="rso"]/div[2]/div[1]/div/div/div/div[1]/div/div/span/a'    # локатор ссылки второго результата поиска
-    url_third_result = '//*[@id="rso"]/div[2]/div[3]/div/div/div/div[1]/div/div/span/a' # локатор ссылки третьего результата поиска
+    url_third_result = '//*[@id="rso"]/div[2]/div[4]/div/div/div/div[1]/div/div/span/a' # локатор ссылки третьего результата поиска
     url_fourth_result = '//*[@id="rso"]/div[2]/div[5]/div/div/div/div[1]/div/div/span/a'    # локатор ссылки четвертого результата поиска
     url_fifth_result = '//*[@id="rso"]/div[2]/div[6]/div/div/div/div[1]/div/div/span/a' # локатор ссылки пятого результата поиска
 
