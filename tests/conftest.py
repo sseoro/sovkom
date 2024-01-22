@@ -19,7 +19,6 @@ def call_driver():
         options.add_argument("--disable-breakpad")
         options.add_argument("--disable-client-side-phishing-detection")
         options.add_argument("--disable-default-apps")
-        options.add_argument("--window-size=1920,1080")
         driver_path = "//usr//bin//chromedriver"
         service = Service(driver_path)
         driver = webdriver.Chrome(options=options, service=service)
